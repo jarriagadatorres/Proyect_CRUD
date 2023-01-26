@@ -12,3 +12,24 @@ header{
     font-size: large;
 }
 
+.bc_1{
+    background-color: rgb(235, 235, 235);
+    padding-left: 10px;
+}
+.bc_2{
+    background-color: white;
+    padding-left: 10px;
+}
+
+.btn{
+    color: white;
+    border-radius: 10px;
+    margin: 2px 5px ;
+}
+
+.btn-eliminar{
+    background-color: red;
+}
+.btn-editar{
+    background-color: green
+}
