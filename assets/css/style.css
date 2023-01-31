@@ -1,35 +1,76 @@
 * {
     padding: 0;
     margin: 0;
+
 }
-header{
+
+header {
     text-align: center;
 }
 
-.card{
+body {
+    background-color: bisque;
+}
+
+.card {
     margin-left: 5%;
     margin-right: 5%;
     font-size: large;
+    box-shadow: rgb(202, 202, 202) 4px 2px;
+    margin-bottom: 10px;
 }
 
-.bc_1{
+h3 {
+    text-align: center;
+}
+
+form label {
+    display: flex;
+    font-size: smaller;
+    padding: 5px 5px;
+    margin-left: 3px;
+}
+
+.card-body {
+    margin-left:5%;
+    margin-right: 5%;
+    
+}
+.card-form{
+    padding: 10px 10px;
+}
+.Lista_Nombres {
+    align-items: center;
+}
+
+.bc_1 {
     background-color: rgb(235, 235, 235);
     padding-left: 10px;
 }
-.bc_2{
+
+.bc_2 {
     background-color: white;
     padding-left: 10px;
 }
 
-.btn{
+.btn {
     color: white;
     border-radius: 10px;
-    margin: 2px 5px ;
+    margin: 2px 5px;
+    padding-top: 1px;
+    width: 90px;
 }
 
-.btn-eliminar{
-    background-color: red;
+.btn-eliminar {
+    background-color: rgb(175, 11, 11);
 }
-.btn-editar{
+
+.btn-editar {
     background-color: green
+}
+
+.btn-guardar {
+    background-color: rgb(80, 37, 255);
+    justify-content:space-around;
+    align-content: center;
 }

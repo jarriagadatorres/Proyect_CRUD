@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -12,25 +12,32 @@
     <script src="assets/js/crud.js"></script>
 </head>
 
-<body onload="prueba()">
+<body onload="inicia()">
     <header>
         <h1>CRUD</h1>
+
     </header>
     <section>
         <div class="card">
             <div class="card-header">
-                <h3>seccion ingreso de datos</h3>
+                <h3>Formulario de ingreso de datos</h3>
+                <div class="card">
+                <form class="d-flex p-2" id="formulario">
+                    <label for="rut">RUT : <input type="text" id="lrut"  required minlength="8" maxlength="8"
+                        size="10"></label>
+                    <label for="nombre">Nombre : <input type="text" id="lnombre" name="nombre" required
+                            size="20"></label>
+                    <label for="apellido">Apellido : <input type="text" id="lapellido" name="apellido" required
+                            size="20"></label>
+                    <button class="btn btn-guardar" onclick="creaElemento()">Guardar</button>
+                    <button class="btn btn-eliminar" onclick="cancelaIngreso()">Cancelar</button>
+                </form>
+            </div>
             </div>
             <div class="card-body">
-                <table class="table">
+                <table class="table table-responsive table-striped" id="tabla">
                     <thead>
-                        <tr>
-                            <th>RUT</th>
-                            <th>Nombre</th>
-                            <th>Apellidos</th>
-                            <th> </th>
-                            <th> </th>
-                        </tr>
+                        <tr id="Encabezado"></tr>
                     </thead>
                     <tbody id="Lista_Nombres">
                     </tbody>
