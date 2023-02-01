@@ -72,7 +72,7 @@ function listar() {  //recibo 4 arreglos obtenidos de Storage
     <label for="apellido">Apellido : <input type="text" id="lapellido"  name="lapellido" value=""
         required size="20"></label>
         <tr>
-    <button class="btn btn-guardar" onclick="actualizaElemento()">Guardar</button>
+    <button class="btn btn-guardar" onclick="creaElemento()">Guardar</button>
     <button class="btn btn-eliminar" onclick="listar()">Cancelar</button>
     </tr>`
 }
