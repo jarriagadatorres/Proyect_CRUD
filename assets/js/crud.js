@@ -24,7 +24,6 @@ function inicia() {
         th = document.createElement('th');
         Encabezado.appendChild(th);
         listar();
-
     }
     return;
 }
@@ -45,10 +44,10 @@ function crearLinea(elements, idl) {
         }
         document.getElementById(idl).innerHTML +=
             `<td>
-            <button class="btn btn-eliminar" onclick="eliminaElemento('${idl}')">eliminar</button>
+            <button class="btn btn-eliminar" onclick="eliminaElemento('${idl}')">Eliminar</button>
             </td>
             <td>
-            <button class="btn btn-editar" onclick="editaElemento('${idl}')">editar</button>
+            <button class="btn btn-editar" onclick="editaElemento('${idl}')">Editar</button>
             </td>`
     }
     return;
@@ -72,8 +71,10 @@ function listar() {  //recibo 4 arreglos obtenidos de Storage
         required size="20"></label>
     <label for="apellido">Apellido : <input type="text" id="lapellido"  name="lapellido" value=""
         required size="20"></label>
+        <tr>
     <button class="btn btn-guardar" onclick="actualizaElemento()">Guardar</button>
-    <button class="btn btn-eliminar" onclick="listar()">Cancelar</button>`
+    <button class="btn btn-eliminar" onclick="listar()">Cancelar</button>
+    </tr>`
 }
 
 

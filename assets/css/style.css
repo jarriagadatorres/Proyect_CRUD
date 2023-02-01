@@ -45,16 +45,6 @@ form{
     align-items: center;
 }
 
-.bc_1 {
-    background-color: rgb(235, 235, 235);
-    padding-left: 10px;
-}
-
-.bc_2 {
-    background-color: white;
-    padding-left: 10px;
-}
-
 .btn {
     color: white;
     border-radius: 10px;
@@ -68,11 +58,39 @@ form{
 }
 
 .btn-editar {
-    background-color: green
+    background-color: green;
 }
 
 .btn-guardar {
     background-color: rgb(80, 37, 255);
     justify-content:space-around;
     align-content: center;
+}
+@media (min-width: 320px) and (max-width:425px) {
+    .card {
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: x-small;
+        margin-bottom: 5px;
+    }
+   
+    .card-body {
+        margin-left:1%;
+        margin-right: 2%;
+    }
+    form{
+        padding: 1px 1px;
+        font-size: small;
+    }
+
+    
+    .btn {
+        color: white;
+        border-radius: 10px;
+        margin: 1px;
+        width: inherit;
+        padding-top: 5px;
+        font-size: 95%;
+    }
+   
 }
