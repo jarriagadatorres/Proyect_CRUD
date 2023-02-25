@@ -12,6 +12,20 @@ body {
     background-color: bisque;
 }
 
+footer {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    color: white;
+}
+footer p{
+    margin-top: 5px;
+    margin-left: 5%;
+
+}
+
 .card {
     margin-left: 5%;
     margin-right: 5%;
@@ -32,11 +46,12 @@ form label {
 }
 
 .card-body {
-    margin-left:5%;
+    margin-left: 5%;
     margin-right: 5%;
-    
+
 }
-form{
+
+form {
     padding: 10px 10px;
     margin: 15px 15px;
 }
@@ -63,9 +78,10 @@ form{
 
 .btn-guardar {
     background-color: rgb(80, 37, 255);
-    justify-content:space-around;
+    justify-content: space-around;
     align-content: center;
 }
+
 @media (min-width: 320px) and (max-width:425px) {
     .card {
         margin-left: 1%;
@@ -73,17 +89,18 @@ form{
         font-size: x-small;
         margin-bottom: 5px;
     }
-   
+
     .card-body {
-        margin-left:1%;
+        margin-left: 1%;
         margin-right: 2%;
     }
-    form{
+
+    form {
         padding: 1px 1px;
         font-size: small;
     }
 
-    
+
     .btn {
         color: white;
         border-radius: 10px;
@@ -92,5 +109,5 @@ form{
         padding-top: 5px;
         font-size: 95%;
     }
-   
+
 }

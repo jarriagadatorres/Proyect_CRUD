@@ -23,8 +23,8 @@ function inicia() {
         Encabezado.appendChild(th);
         th = document.createElement('th');
         Encabezado.appendChild(th);
-        listar();
     }
+    listar();
     return;
 }
 
